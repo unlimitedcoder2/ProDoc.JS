@@ -45,8 +45,3 @@ var css = ["color: blue", "font-size: 45px"]
 prodoc.appendStyle('#exampleID', css);
 
 ```
-
-
-# Info dump
-Default parent = body (or *.pdoc-body* if devmode is enabled)
-*attributes* only accept arrays!

@@ -189,18 +189,6 @@ function ProDoc(options) {
       devbody.innerHTML = bodyContent;
       document.body.appendChild(devbody);
 
-      var ideCSS = document.createElement('LINK');
-      ideCSS.setAttribute('href', 'dependencies/css/codemirror.css');
-      ideCSS.setAttribute('rel', 'stylesheet');
-      ideCSS.setAttribute('type', 'text/css');
-      document.head.appendChild(ideCSS);
-
-      var ideTheme = document.createElement('LINK');
-      ideTheme.setAttribute('href', 'dependencies/css/material.codemirror.css');
-      ideTheme.setAttribute('rel', 'stylesheet');
-      ideTheme.setAttribute('type', 'text/css');
-      document.head.appendChild(ideTheme);
-
       var GoogleFont = document.createElement('LINK');
       GoogleFont.setAttribute('href', 'https://fonts.googleapis.com/css?family=K2D');
       GoogleFont.setAttribute('rel', 'stylesheet');
