@@ -1,5 +1,6 @@
 # ProDoc.JS
 **(!)** Only tested on Google Chrome
+**DISCONTINUED** Use https://github.com/JacobWennebro/WebSplash
 
 ## Installation
 Paste this into the end of your body tag, in an HTML document of course. :)
